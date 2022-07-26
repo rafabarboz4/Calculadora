@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora simples</h1><br><br>
+    </header>
+    <form>
+        <input type="number" name="n1_input" id="n1_input" placeholder="Digite um número aqui">
+        <select name="operadores" id="operadores">
+            <option value="soma">+</option>
+            <option value="subtracao">-</option>
+            <option value="multiplicacao">x</option>
+            <option value="divisao">/</option>
+        </select>
+        <input type="number" name="n2_input" id="n2_input" placeholder="Digite um número aqui"><br><br>
+        <button type="button" id="calcular_button" onclick="calcular()">Calcular</button>
+    </form>
+    <div id="resultado">
+        <h3>Resultado</h3><br><br>
+    </div>
+    <footer>
+        <p>Feito por: Rafael Vieira Barboza</p>
+    </footer> 
+</body>
+</html>
